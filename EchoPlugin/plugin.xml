@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-infologs-echo"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        version="1.0">
+
+    <name>Echo</name>
+
+    <description>Prints using plugin</description>
+
+    <license>MIT</license>
+
+    <!-- cordova -->
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+       <!-- <engine name="android-sdk" version=">=19" />
+        <engine name="apple-ios" version=">=8.0" />-->
+    </engines>
+
+    <!-- interface -->
+    <js-module src="src/js/Echo.js" name="EchoJS">
+        <clobbers target="window.plugin.echojs" />
+    </js-module>
+
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="EchoJS">
+                <param name="android-package" value="com.infologs.EchoJS.EchoJS"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/EchoJS.java" target-dir="src/com/infologs/EchoJS" />
+
+    </platform>
+
+   
+
+</plugin>

@@ -1,0 +1,17 @@
+{
+    "name": "cordova-infologs-echo",
+    "version": "1.0.0",
+    "description": "Print the data",
+    "cordova": {
+        "id": "com.infologs.echo",
+        "platforms":[
+            "android"
+        ]
+    },
+    "engines": [{
+       "name": "cordova",
+        "version": ">=4.0.0"
+    }],
+    "author": "Andre Alonzo",
+    "license": "Apache 2.0"
+}
