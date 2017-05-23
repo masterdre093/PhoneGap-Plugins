@@ -1,0 +1,9 @@
+1) open printer.java in src/android folder
+2) create new method if needed
+3) open printer.js in src/js folder
+4) create new function referencing the new method in java file if needed
+5) save changes.
+6) open app project using nodejs command
+7) remove the plugin
+8) copy the updated PrinterPlugin to the project
+9) re-add the plugin into projec 
