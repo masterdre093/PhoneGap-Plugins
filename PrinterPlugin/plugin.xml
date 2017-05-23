@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-andrelogs-printer"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        version="1.0">
+
+    <name>Printer</name>
+
+    <description>Prints using plugin</description>
+
+    <license>MIT</license>
+
+    <!-- cordova -->
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+       <!-- <engine name="android-sdk" version=">=19" />
+        <engine name="apple-ios" version=">=8.0" />-->
+    </engines>
+
+    <!-- interface -->
+    <js-module src="src/js/Printer.js" name="PrinterJS">
+        <clobbers target="window.plugin.printerjs" />
+    </js-module>
+
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="PrinterJS">
+                <param name="android-package" value="com.andrelogs.PrinterJS.PrinterJS"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/PrinterJS.java" target-dir="src/com/andrelogs/PrinterJS" />
+
+    </platform>
+
+   
+
+</plugin>
