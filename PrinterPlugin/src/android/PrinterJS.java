@@ -59,7 +59,7 @@ public class PrinterJS extends CordovaPlugin{
 	   int ret =  printer.open();
 	   
 	   if (ret == 0) {  
-		   Messagebox(this, "open success!!") ;
+		   //Messagebox(this, "open success!!") ;
 		   open_flg = true;  
 	    }
 	   else {   
@@ -88,7 +88,7 @@ public class PrinterJS extends CordovaPlugin{
 		
 		 if (ret== 0) {  
 			 
-			 Messagebox(this, "success") ;
+			 //Messagebox(this, "success") ;
 		 }
 		 else
 		 {
@@ -116,7 +116,7 @@ public class PrinterJS extends CordovaPlugin{
 		
 		 if (ret== 0) {  
 			 
-			 Messagebox(this, "success") ;
+			 //Messagebox(this, "success") ;
 		 }
 		 else
 		 {
@@ -144,7 +144,7 @@ public class PrinterJS extends CordovaPlugin{
 		
 		 if (ret== 0) {  
 			 
-			 Messagebox(this, "success") ;
+			 //Messagebox(this, "success") ;
 		 }
 		 else
 		 {
@@ -173,7 +173,7 @@ public class PrinterJS extends CordovaPlugin{
 		
 		 if (ret== 0) {   
 			 
-			 Messagebox(this, "success") ;
+			 //Messagebox(this, "success") ;
 		 }
 		 else
 		 { 
@@ -186,7 +186,7 @@ public class PrinterJS extends CordovaPlugin{
 	{
 		if (!open_flg)
 		{
-			 Messagebox(this, "please open first") ;
+			 //Messagebox(this, "please open first") ;
 			 return; 
 		}
 		
@@ -203,7 +203,7 @@ public class PrinterJS extends CordovaPlugin{
 		 
 		 if (ret== 0) {     
 			 
-			 Messagebox(this, "success") ; 
+			 //Messagebox(this, "success") ; 
 		 }
 		 else
 		 { 
