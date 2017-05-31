@@ -1,0 +1,4 @@
+open printer - window.plugins.scannerjs.scannerOpen();
+scan code - window.plugins.scannerjs.printData(function(data){sendData(data);},function(error){sendData(error);}); 
+send data to a function eg. SendData function
+close printer - window.plugins.scannerjs.scannerClose();

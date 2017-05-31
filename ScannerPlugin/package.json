@@ -1,0 +1,17 @@
+{
+    "name": "cordova-andrelogs-scanner",
+    "version": "1.0.0",
+    "description": "Scanner",
+    "cordova": {
+        "id": "com.andrelogs.scanner",
+        "platforms":[
+            "android"
+        ]
+    },
+    "engines": [{
+       "name": "cordova",
+        "version": ">=4.0.0"
+    }],
+    "author": "Andre Alonzo",
+    "license": "Apache 2.0"
+}
