@@ -1,4 +1,4 @@
 open printer - window.plugins.scannerjs.scannerOpen();
-scan code - window.plugins.scannerjs.printData(function(data){sendData(data);},function(error){sendData(error);}); 
+scan code - window.plugins.scannerjs.printData(function(data){sendData(data);},function(error){sendData(error);}); - https://stackoverflow.com/questions/29068134/cordova-phonegap-android-callback-with-data
 send data to a function eg. SendData function
 close printer - window.plugins.scannerjs.scannerClose();
