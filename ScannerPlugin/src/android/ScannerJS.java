@@ -70,7 +70,7 @@ public class ScannerJS extends CordovaPlugin{
 		}  
         else
         {
-        	Messagebox(this, "open success");            
+        	//Messagebox(this, "open success");            
         }   
         
         open_flg = true;       
@@ -123,7 +123,7 @@ public class ScannerJS extends CordovaPlugin{
 		}
         else
         {
-        	Messagebox(this, "close success");     
+        	//Messagebox(this, "close success");     
         }
 		 
 		 scan = null; 	
